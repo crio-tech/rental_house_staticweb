@@ -231,7 +231,7 @@ p {
 
 .best-offer-left-content h4 {
 	margin-top: 33px;
-	font-size: 18px;
+	font-size: 24px;
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 700;
@@ -246,7 +246,7 @@ p {
 
 .best-offer-right-content h2 {
 	margin-top: 0px;
-	font-size: 32px;
+	font-size: 42px;
 	font-weight: 300;
 	color: #121212;
 	line-height: 36px;
@@ -271,7 +271,7 @@ p {
 
 .best-offer-right-content ul li {
 	display: block;
-	font-size: 13px;
+	font-size: 18px;
 	font-style: italic;
 	color: #7a7a7a;
 	font-weight: 300;
@@ -600,8 +600,8 @@ p {
 /* turning on hover */
 
 .flip-container:hover .flipper {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
   -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     -ms-transition-delay: 0s;
@@ -636,7 +636,7 @@ p {
 
 .front h4 {
 	margin-top: 0px;
-	font-size: 17px;
+	font-size: 27px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -681,8 +681,10 @@ transition-delay: 0.3s;
 
 .back p {
   color: #fff;
-  padding: 90px 30px;
+  padding: 9;;;0px 30px;
+  
 }
+
 
 .first-service .front,
 .first-service .back {
